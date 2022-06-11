@@ -24,6 +24,6 @@ I had that much knowledge and did what I could do, so if you know better share w
 
 Important : This fix is safe to use but in case you need to do filters, using this file is on your own risk.
 
-I will let know creators of te summernote, that guys will do good job and go way further. "http://" removed and added "//" to allowed protocol so it can support http or https in case user didin't select use protocols etc..
+I will let know the creators of the summernote, that guys will do good job and go way further. "http://" removed and added "//" to allowed protocol so it can support http or https in case user didin't select use protocols etc..
 
 Demo can be seen on here https://askbrn.com/summernote_demo/
