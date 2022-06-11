@@ -22,7 +22,7 @@ $.sanitize = function(input) {
 
 $.sanitizeUrl = function(input) {
   var output = input.replace(/\s+/gi, '').
-    replace(/%20/gi, "");
+    replace(/%20/g, "");
   return $.sanitize(output);
 };
     
