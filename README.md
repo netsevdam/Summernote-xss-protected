@@ -22,7 +22,7 @@ I create a new function to remove bad protocols from the editor codeview, link, 
 I added created function on the top of the summernote-lite.js so anyone can see the function at the top of all codes and click on function name to see what and where are the changes, I tried to replace html entities but the function keep added entities.
 I had that much knowledge and did what I could do, so if you know better share with us and make it better.
 
-Important : This fix safe to use but in case you need to do filters, using this is on your own risk.
+Important : This fix is safe to use but in case you need to do filters, using this file is on your own risk.
 
 I will let know creators of te summernote, that guys will do good job and go way further. "http://" removed and added "//" to allowed protocol so it can support http or https in case user didin't select use protocols etc..
 
