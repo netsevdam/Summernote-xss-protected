@@ -9,7 +9,7 @@ onerror
 <code class="notranslate">&lt;img src="http://url.to.file.which/not.exist" onerror=alert(document.cookie);&gt;</code>
 
 
-Affected versions of this package are vulnerable to Cross-site Scripting (XSS). It is possible to inject JavaScript with object decoding such as <code class="notranslate">&lt;script&gt;alert(1)&lt;/script&gt;</code> resulting in XSS. The fix is to sanitize the input on the package before further processing/executing.
+All versions are vulnerable to Cross-site Scripting (XSS). It is possible to inject JavaScript with object decoding such as <code class="notranslate">&lt;script&gt;alert(1)&lt;/script&gt;</code> resulting in XSS. The fix is to sanitize the input on the package before further processing/executing.
 
 Issue: [#3782](https://github.com/summernote/summernote/pull/3782).
 
