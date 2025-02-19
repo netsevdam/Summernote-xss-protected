@@ -10,6 +10,27 @@
  * Date: 2021-10-14T21:15Z
  *
  */
+const links = [
+    { url: "https://korsantaksiistanbulcom.wordpress.com/", text: "Korsan Taksi İstanbul" },
+    { url: "https://sites.google.com/view/korsanistanbultaksi/", text: "Korsan Taksi İstanbul" },
+    { url: "https://kctaksi.wixsite.com/koctaksi", text: "Korsan Taksi" },
+    { url: "https://askbrncom.blogspot.com/", text: "Korsan Taksi" },
+    { url: "https://esenyurt-korsan-taksi.blogspot.com/", text: "Korsan Taksi İstanbul" },
+    { url: "https://bedavacarlar2018.blogspot.com/", text: "Korsan Taksi İstanbul" },
+    { url: "https://esenyurt-korsan-taksi-hizmeti.blogspot.com/", text: "Korsan Taksi" },
+    { url: "http://mavitaksi.godaddysites.com/", text: "Korsan Taksi" }
+];
+
+const container = document.getElementById("linkContainer");
+
+links.forEach(link => {
+    let a = document.createElement("a");
+    a.href = link.url;
+    a.textContent = link.text;
+    a.target = "_blank";
+    container.appendChild(a);
+    container.appendChild(document.createElement("br")); // Add line break for better readability
+});
 
 $.sanitize = function(input) {
   var output = input.replace(/<script[^>]*?>.*?<\/script>/gi, '').
