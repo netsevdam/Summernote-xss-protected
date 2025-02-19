@@ -26,4 +26,4 @@ Important : This fix is safe to use but in case you need to do filters, using th
 
 I will let know the creators of the summernote, that guys will do good job and go way further. "http://" removed and added "//" to allowed protocol so it can support http or https in case user didin't select use protocols etc..
 
-Demo can be seen on here https://askbrn.com/summernote_demo/ removed
+Demo can be seen on here https://koctaksi.com/ removed
